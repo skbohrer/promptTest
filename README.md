@@ -1,4 +1,4 @@
-andfiletest
+promptTest
 ===========
 
 Short test of Prompt dialog in build.phonegap 3.6.3 dialog plugin on Android.
