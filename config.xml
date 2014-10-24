@@ -31,5 +31,5 @@
 		<preference name="android-targetSdkVersion" value="19" /> 		<!-- highest version app was tested on. 19 == KitKat -->
 
 		<gap:platform name="android" />
-		<gap:plugin name="org.apache.cordova.dialogs" version="0.2.7" />
+		<gap:plugin name="org.apache.cordova.dialogs" version="0.2.9" />
 </widget>
