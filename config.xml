@@ -3,8 +3,8 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
         id          = "com.steadmanhill.prompttest"
-        versionCode = "7"
-        version     = "1.1" >
+        versionCode = "8"
+        version     = "1.2" >
 
     <!-- versionCode is Android only: increase each build, unrelated to displayed version -->
 
@@ -31,5 +31,5 @@
 		<preference name="android-targetSdkVersion" value="19" /> 		<!-- highest version app was tested on. 19 == KitKat -->
 
 		<gap:platform name="android" />
-		<gap:plugin name="org.apache.cordova.dialogs" source="plugins.cordova.io" version="0.2.10" />
+		<gap:plugin name="org.apache.cordova.dialogs" source="plugins.cordova.io" version="0.2.11" />
 </widget>
