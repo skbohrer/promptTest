@@ -3,8 +3,8 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
         id          = "com.steadmanhill.prompttest"
-        versionCode = "10"
-        version     = "1.4" >
+        versionCode = "11"
+        version     = "1.5" >
 
     <!-- versionCode is Android only: increase each build, unrelated to displayed version -->
 
@@ -20,16 +20,16 @@
 
 				<!-- preferences -->
 		<preference name="permissions" value="none"/>			<!-- core plugins add own permissions -->
-		<preference name="phonegap-version" value="3.6.3" /> 	<!-- all: current version of PhoneGap -->
+		<preference name="phonegap-version" value="3.7.0" /> 	<!-- all: current version of PhoneGap -->
 		<preference name="orientation" value="default" /> 		<!-- all: default means both landscape and portrait are enabled -->
 		<preference name="target-device" value="universal" /> 	<!-- all: possible values handset, tablet, or universal -->
 		<preference name="fullscreen" value="false" /> 			<!-- all: hides the status bar at the top of the screen -->
 		<access origin="*" />
 
 				<!-- Android -->
-		<preference name="android-minSdkVersion" value="7" /> 			<!-- android: MIN SDK version supported on the target device. -->
-		<preference name="android-targetSdkVersion" value="19" /> 		<!-- highest version app was tested on. 19 == KitKat -->
+		<preference name="android-minSdkVersion" value="16" /> 			<!-- android: MIN SDK version supported. 16 == Android 4.1, 4.1.1 Jelly Bean -->
+		<preference name="android-targetSdkVersion" value="21" /> 		<!-- highest version app was tested on. 21==Lollipop 5.0; 19==KitKat 4.4 -->
 
 		<gap:platform name="android" />
-		<gap:plugin name="org.apache.cordova.dialogs" source="plugins.cordova.io" version="0.2.8" />
+		<gap:plugin name="org.apache.cordova.dialogs" source="plugins.cordova.io" version="0.3.0" />
 </widget>
