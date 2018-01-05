@@ -22,7 +22,57 @@ body {
 	position: relative;
 }
 
+/* ********************************************************************** */
+/* header title bar : contains trip ID and info, stop a of b, menu button */
+#header {
+	background: #555;
+	height: 2.5em;
+	line-height: 2.5em;
+	width: 100%;
+	color: #fff;
+	-webkit-user-select: none;
+	z-index: 3;
+}
 
+
+#header span#title {
+	float: left;
+	padding: 0;
+	text-align: left;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-left: 4px;
+	overflow: hidden;
+}
+
+#header span#tripInfo {
+	float: right;
+	padding: 0;
+	margin-right: 4px;
+	text-align: right;
+	line-height: 1.2em;
+	font-size: 0.8em;
+	overflow: hidden;
+}
+#header2 {	/* spans are down by LI spans */
+	background: #555;
+	height: 1em;
+	line-height: 1em;
+	font-size: 0.8em;
+	width: 100%;
+	color: #fff;
+	text-align: left;
+	overflow: hidden;
+	-webkit-user-select: none;
+	z-index: 2;
+}
+
+h1 {
+	font-size: 18px;
+	padding: 20 0 0 0;
+	margin: 0px;
+	align: center;
+}
 
 /* ********************************************************************** */
 /* Stop controls */
@@ -59,14 +109,56 @@ body {
 	width:6em;
 }
 
+#newBusForm {
+	width: 100%;
+	height: 90%;
+	z-index: 3;
+	display: none;
+}
 
-.hBtn {
+.nbfBold {
+	font-weight: bold;
+}
+
+#nbfHeader {
+	background: #555;
+	height: 2.5em;
+	line-height: 2.5em;
 	font-size: 1.4em;
-	float: right;
-	height: 2.2em;
-	width: 8em;
-	margin-right: 2px;
-	margin-top: 8px;
+	width: 100%;
+	color: #fff;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+button.timeStamp  {
+	border:2px dotted blue;
+    width: 7em;
+    height: 1.8em;
+	text-align:center;
+	font-weight:bold;
+	color: blue;
+	background-color:Gainsboro;
+	margin: 2px;
+}
+
+button.datetimeStamp  {
+	border:2px dotted blue;
+    width: 10em;
+    height: 1.8em;
+	text-align:center;
+	font-weight:bold;
+	color: blue;
+	background-color:Gainsboro;
+	margin: 2px;
+}
+
+
+#showfile {
+	width: 85%;
+	height: 10em;
+	overflow: auto;
 }
 
 
@@ -154,7 +246,137 @@ legend {
 #downcount {
 	display: none;
 }
+/* ********************************************************************** */
+/* H record and Comment Record editing input boxes */
 
+#hEdit {
+    text-align: right;
+	font-size: 1.6em;
+	line-height: 1.2;
+}
+
+#hEdit legend {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#hInfo {
+    font-size: 1.4em;
+    color: green;
+	line-height: 1.2;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+}
+
+#hNotes {
+	color: red;
+}
+
+.hBtn {
+	font-size: 1.4em;
+	float: right;
+	height: 2.2em;
+	width: 8em;
+	margin-right: 2px;
+	margin-top: 8px;
+}
+
+#commEdit {
+    text-align: left;
+	font-size: 1.2em;
+	line-height: 1.2;
+}
+
+#commEdit legend {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#cClear {
+	font-size: 1em;
+	float: right;
+	height: 4em;
+	width: 3em;
+	margin-right: 8px;
+	margin-top: 38px;
+}
+
+
+#noteText {
+	width:60%;
+	height: 6em;
+}
+#notes {
+	font-size: 2em;
+}
+
+/* ********************************************************************** */
+/* Scrolling list of stops, with spans for various stop info */
+
+#scrollWrap {
+	position: relative;
+	z-index: 1;
+	top: 0px;
+ 	height: 720px;    /* PC DEBUG */
+	/* height: 300px;  /* PC DEBUG */
+	left: 0px;
+	width: 100%;
+	background: #ccc;
+	overflow: hidden;
+	border-style:solid;
+	border-color:black;
+	border-width:3px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+	user-select: none;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+	user-select: none;
+}
+
+#scroller li {
+	padding: 0px 20px 0px 10px;
+	font-size: 1.2em;
+	height: 2.6em;
+	line-height: 2.6em;
+	border-bottom: 1px solid #A8A8A8;
+	border-top: 1px solid #fff;
+	background-color: #F0F0F0;
+	overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+	user-select: none;
+}
 
 #h2left {
 	display: inline-block;
@@ -233,8 +455,269 @@ span.cnt3 {
 	width: 10px;
 }
 
+#busNoteLab {
+	float: right;
+	display: flex;
+ 	align-items: center;
+}
+
+#busNoteLab button {
+	width: 6em;
+}
+
+#busNote {
+	overflow-wrap: break-word;
+	white-space: nowrap; 
+	overflow: hidden;
+	width: 10em;
+	padding: 0.15em;
+	margin-right: 0.5em;
+	display: inline-block;
+	text-overflow: ellipsis;
+	font-style: italic;
+	color: gray;
+}
+
+#stopListH {		/* trip header list item */
+	font-weight: bold;
+	color: green;
+}
+
+#scroller li.hilite {
+	background-color: Gold;
+}
+
+#scroller li.comment {
+	font-style: italic;
+	color: gray;
+}
+
+#scroller li.addedBus {
+	color: green;
+}
+
+#scroller li.newBus {
+	font-weight: bold;
+	color: black;
+}
+
+#scroller li.doneBus {
+	font-weight: lighter;
+	color: black;
+}
+
+/* ********************************************************************** */
+/* File load and save */
+
+
+#pickFileWrap {
+	display: none;
+	margin: 4px 2px;
+}
+
+#pickFileWrap button {
+    font-size: 130%;
+}
+
+#saveFileWrap {
+	margin: 6px;
+	padding: 6px;
+	overflow: auto;
+	display: none;
+}
+
+
+/* ********************************************************************** */
+/* File Name Scroller */
+.blueBorder {
+	border-color:blue;
+}
+
+.greenBorder {
+	border-color:green;
+}
+
+.redBorder {
+	border-color:red;
+}
+
+#fileScrollOuter {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 524px;		/* NOTE: Height gets reset via code for download panel and delete panel */
+	background: #ccc;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 5px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+	user-select: none; 
+}
+
+#fileScroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+/*	-webkit-touch-callout: none; */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#fileScroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+	user-select: none;
+}
+
+#fileScroller li.greenHilite {
+	background-color: GreenYellow;
+}
+
+#fileScroller li.dlHilite {
+	background-color: DarkGray;
+}
+
+#fileScroller li.delHilite {
+	background-color: darkRed;
+}
+
+#fileScroller li {
+	padding: 0 10px;
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #808080;
+	border-top: 1px solid #c0c0c0;
+	background-color: #F0F0F0;
+	overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+	user-select: none;
+}
+
+#serverSettings {
+    display: none;
+    text-align: right;
+   	font-size: 1.2em;
+	margin: 4px;
+}
+
+#serverSettings button {
+    font-size: 130%;
+}
+
+#serverSettings input[type="text"] {
+    width: 420px;
+   	font-size: 1.2em;
+}
+
+#ssHelp {
+    text-align: left;
+    font-style: italic;
+}
+
+#ssOk {
+	margin: 2px 10px;
+	padding: 2px 10px;
+}
+
+#ssCancel {
+	margin: 2px 10px;
+	padding: 2px 10px;
+}
+
+.cID {
+    color: FireBrick ;
+   	font-size: 1.2em;
+    font-weight:bold;
+}
+
+#synDnBtn {
+	float: right;
+}
+
+#synSettings {
+	font-size: 100%;
+}
+
+#synDelete {
+	font-size: 100%;
+	margin-top: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
 
 label {
 	font-style: bold;
+}
+
+#dlCtls label {
+   	font-size: 1.3em;
+	font-style: bold;
+}
+
+#dlCtls button {
+	margin: 3px;
+	padding: 2px 10px;
+}
+
+#dlcDone {
+	float: right;
+}
+
+#dlcRefresh { 
+	float: right;
+}
+
+#delCtls {
+	display: none;
+}
+
+#delCtls button {
+	margin: 3px;
+	padding: 2px 10px;
+}
+
+#delDone {
+	float: right;
+}
+
+#delHelp {
+    text-align: left;
+    font-style: italic;
+	color: darkRed;
+}
+
+.blueOutline {
+	outline: blue double;
+}
+
+.redOutline {
+	outline: red double;
+}
+
+.greenOutline {
+    outline: green double;
 }
 
