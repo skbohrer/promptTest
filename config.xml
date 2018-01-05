@@ -7,19 +7,24 @@
 
     <!-- versionCode is Android only: increase each build, unrelated to displayed version -->
 
-		<name>PromptTest</name>
+		<name>KeyboardTest</name>
 
         <description>
-			Test core dialog plugin prompt function.
+			Test using Input box without Android keyboard ever showing.
         </description>
 
         <author email="dev.steadman.hill@gmail.com">
 			Steve Bohrer
 		</author>
 
+
+
+				<!-- plugins -->
+		<plugin name="cordova-plugin-keyboard" spec="~1.2.0" />
+
 				<!-- preferences -->
 		<preference name="permissions" value="none"/>			<!-- core plugins add own permissions -->
-		<preference name='phonegap-version' value='cli-6.3.0' /> <!-- all: current version of PhoneGap -->
+		<preference name='phonegap-version' value='cli-6.5.0' /> <!-- all: current version of PhoneGap -->
 		<preference name="orientation" value="default" /> 		<!-- all: default means both landscape and portrait are enabled -->
 		<preference name="target-device" value="universal" /> 	<!-- all: possible values handset, tablet, or universal -->
 		<preference name="fullscreen" value="false" /> 			<!-- all: hides the status bar at the top of the screen -->
@@ -30,6 +35,5 @@
 		<preference name="android-targetSdkVersion" value="21" /> 		<!-- highest version app was tested on. 21==Lollipop 5.0; 19==KitKat 4.4 -->
 
 		<platform name="android" />
-		<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
 
 </widget>

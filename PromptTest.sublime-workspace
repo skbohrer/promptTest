@@ -1,0 +1,372 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"copy",
+				"copyNtoS"
+			],
+			[
+				"tag",
+				"tagSC"
+			],
+			[
+				"hShift",
+				"hShiftStart"
+			],
+			[
+				"busCan",
+				"busCanClick"
+			],
+			[
+				"stopIdx",
+				"stopIdxKey"
+			],
+			[
+				"sSc",
+				"sSchedT"
+			],
+			[
+				"sS",
+				"sSchedT"
+			],
+			[
+				"mat",
+				"matchFileAll"
+			],
+			[
+				"rs",
+				"rsRideBtn"
+			],
+			[
+				"write",
+				"writeItem"
+			],
+			[
+				"getF",
+				"getFileTag"
+			],
+			[
+				"theF",
+				"theFileEnt"
+			],
+			[
+				"theFi",
+				"theFileName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.xml",
+			"settings":
+			{
+				"buffer_size": 1589,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/normalize.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/styles.css\">\n<head>\n</head>\n<body>\n\t<p>Simple test of some numeric input boxes with a basic custom keyboard\n\t</p>\n\t<p>\n\t</p>\n\n\t<script type='text/javascript' src='cordova.js'></script>\n\t<script type='text/javascript' src='confirmtest.js'></script>\n\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 274,
+			"file_write_time": 131595750361196692,
+			"settings":
+			{
+				"buffer_size": 409,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "confirmtest.js",
+			"settings":
+			{
+				"buffer_size": 722,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/steve/dev/pc-data.js",
+		"/Users/steve/dev/StandCheck/standcheck.sublime-project",
+		"/Users/steve/dev/StandCheck/www/index.html",
+		"/Users/steve/dev/StandCheck/www/js/stops.js",
+		"/Users/steve/dev/StandCheck/www/js/main.js",
+		"/Users/steve/Downloads/iscroll-master/demos/simple/index.html",
+		"/Users/steve/Desktop/styles copy.css",
+		"/Users/steve/Desktop/index copy.html",
+		"/Users/steve/Desktop/index.html",
+		"/Users/steve/dev/StandCheck/www/lib/iscroll.js",
+		"/Users/steve/dev/StandCheck/readme.md",
+		"/Users/steve/dev/StandCheck/config.xml",
+		"/Users/steve/dev/RideCheck/config.xml",
+		"/Users/steve/dev/RideCheck/www/js/fileio.js",
+		"/Users/steve/dev/RideCheck/www/js/stops.js",
+		"/Users/steve/dev/RideCheck/www/index.html",
+		"/Users/steve/dev/webtest/webtest.js",
+		"/Users/steve/dev/webtest/config.xml",
+		"/Users/steve/dev/webtest/index.html",
+		"/Users/steve/dev/RideCheck/www/css/styles.css",
+		"/Users/steve/dev/promptTest/confirmtest.js",
+		"/Users/steve/dev/promptTest/config.xml",
+		"/Users/steve/dev/andfiletest/config.xml",
+		"/Users/steve/dev/andfiletest/andfiletest.js",
+		"/Users/steve/dev/RideCheck/js/fileio.js",
+		"/Users/steve/dev/RideCheck/js/timestamp.js",
+		"/Users/steve/dev/RideCheck/js/main.js",
+		"/Users/steve/dev/RideCheck/js/stops.js",
+		"/Users/steve/Downloads/hfs2.3i.src/hfs.tpl",
+		"/Users/steve/dev/RideCheck/css/styles.css",
+		"/Users/steve/dev/RideCheck/index.html",
+		"/Users/steve/dev/RideCheck/lib/fastclick.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "confirmtest.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "PromptTest.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 147.0,
+		"last_filter": "server",
+		"selected_items":
+		[
+			[
+				"server",
+				"serverSettings"
+			],
+			[
+				"hide",
+				"hideStopStuff"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

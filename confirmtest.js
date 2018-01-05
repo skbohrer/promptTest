@@ -1,27 +1,21 @@
 'use strict';
 
 
-function onPrompt(results) {
-    alert("You selected button number " + results.buttonIndex + " and entered " + results.input1);
+function fieldClick(){
+	Keyboard.hide();
+	setTimeout(Keyboard.hide, 1);
+	setTimeout(Keyboard.hide, 10);
 }
 
-function doBtnClick () {
-	navigator.notification.prompt(
-		'Please enter your name',  // message
-		onPrompt,                  // callback to invoke
-		'Registration',            // title
-		['Ok','Exit'],             // buttonLabels
-		'Jane Doe'                 // defaultText
-	);
-}
-// Call on Android device ready event and also directly for PC testing. Thus
-// init may be called twice
 function init() {
-  document.getElementById('showDialog').onclick = doBtnClick;
+  document.getElementById('busID').onclick = fieldClick;
+  document.getElementById('busOff').onclick = fieldClick;
+  document.getElementById('busOn').onclick = fieldClick;
+  document.getElementById('busPOB').onclick = fieldClick;
+  document.getElementById('busPLB').onclick = fieldClick;
 }
 
 // Wait for device API libraries to load
 document.addEventListener("deviceready", init, false);
 
-init();
 

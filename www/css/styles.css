@@ -1,0 +1,240 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color:transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+html {
+	height: 100%;
+	-ms-touch-action: none;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+	font-size: 110%;
+	height: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+/* ********************************************************************** */
+/* Stop controls */
+
+.wrapper {
+	margin: 6px;
+}
+
+.divPad {		/* space between items for file io elements */
+	margin: 6px;
+}
+
+#ctlsWrap {
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+	border-style:solid;
+	border-color:red;
+	border-width:1px;
+}
+
+#tsArea {
+	float:right;
+	font-size: 1.6em;
+}
+
+#busInfo {
+    text-align: right;
+	font-size: 1.6em;
+	line-height: 1.2;
+}
+
+#busInfo input{
+	width:6em;
+}
+
+
+.hBtn {
+	font-size: 1.4em;
+	float: right;
+	height: 2.2em;
+	width: 8em;
+	margin-right: 2px;
+	margin-top: 8px;
+}
+
+
+input {
+	-webkit-user-select: auto;
+	maxlength: 50;
+}
+
+input[type=checkbox] {
+ /* Double-sized Checkboxes */
+ -moz-transform: scale(2.5); /* FF */
+ -webkit-transform: scale(2.5); /* Safari and Chrome */
+ transform: scale(2.5);
+ vertical-align: 10%;
+}
+
+textarea {
+	-webkit-user-select: auto;
+	maxlength: 100;
+}
+
+.clear {
+    clear:both;
+}
+
+
+#bottomButtDiv {
+	z-index: 2;
+    font-size: 130%;
+    font-weight: bold;
+	padding: 2px;
+}
+
+.bottomButts {
+	margin: 2px 6px;
+	height: 50px;
+	text-align: center;
+	float:left;
+}
+
+.gotoButts {
+	font-size: 0.7em;
+	margin: 2px 6px;
+	height: 50px;
+	text-align: center;
+	float:left;
+}
+
+#exitBtn {
+	float:right;
+}
+
+
+legend {
+    font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#sNameBox {
+	font-weight: bold;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	font-size: 2em;
+	max-height: 2.5em;
+	min-height: 2.5em;
+	line-height: 1.2;
+	padding: 0.15em;
+}
+
+.redtext {
+	color: red;
+}
+
+
+#commWrap {
+	display: none;
+}
+
+#sWrap {
+	display: none;
+}
+
+#downcount {
+	display: none;
+}
+
+
+#h2left {
+	display: inline-block;
+	width: 10px;
+}
+#h2stp {
+	display: inline-block;
+	width: 7.6em;
+}
+span.stp {
+	display: inline-block;
+	width: 5em;
+}
+
+#h2schd {
+	display: inline-block;
+	width: 6.4em;
+}
+span.schd {
+	display: inline-block;
+	width: 4.2em;
+}
+
+#h2tpr {
+	display: inline-block;
+	width: 7.6em;
+}
+span.tpr {
+	color: blue;
+	display: inline-block;
+	width: 5em;
+}
+
+#h2tsi {
+	display: inline-block;
+	width: 7.6em;
+}
+span.tsi {
+	color: blue;
+	display: inline-block;
+	width: 5em;
+}
+
+span.rtgrp {
+	float: right;
+	text-align: right;
+}
+
+span.cnt {
+	display: inline-block;
+	color: black;
+}
+
+#h2cnt2 {
+	display: inline-block;
+	width: 2.8em;
+}
+span.cnt2 {
+	display: inline-block;
+	width: 1.7em;
+	color: black;
+}
+
+#h2cnt3 {
+	display: inline-block;
+	width: 3em;
+}
+span.cnt3 {
+	display: inline-block;
+	width: 1.7em;
+	color: black;
+}
+
+#h2right {
+	display: inline-block;
+	width: 10px;
+}
+
+
+label {
+	font-style: bold;
+}
+
