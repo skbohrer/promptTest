@@ -8,11 +8,12 @@ function fieldClick(){
 }
 
 function init() {
-  document.getElementById('busID').onfocus = fieldClick;
-  document.getElementById('busOff').onfocus = fieldClick;
-  document.getElementById('busOn').onfocus = fieldClick;
-  document.getElementById('busPOB').onfocus = fieldClick;
-  document.getElementById('busPLB').onfocus = fieldClick;
+	FastClick.attach(document.body);
+  	document.getElementById('busID').onfocus = fieldClick;
+  	document.getElementById('busOff').onfocus = fieldClick;
+ 	document.getElementById('busOn').onfocus = fieldClick;
+  	document.getElementById('busPOB').onfocus = fieldClick;
+  	document.getElementById('busPLB').onfocus = fieldClick;
 }
 
 // Wait for device API libraries to load

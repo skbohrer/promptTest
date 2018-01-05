@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.steadmanhill.prompttest"
-        versionCode = "12"
-        version     = "1.6" >
+        versionCode = "14"
+        version     = "1.0" >
 
     <!-- versionCode is Android only: increase each build, unrelated to displayed version -->
 
