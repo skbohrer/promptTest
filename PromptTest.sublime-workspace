@@ -64,6 +64,16 @@
 			"settings":
 			{
 				"buffer_size": 1588,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 1043,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -77,19 +87,10 @@
 			}
 		},
 		{
-			"file": "www/index.html",
+			"file": "www/js/confirmtest.js",
 			"settings":
 			{
-				"buffer_size": 1039,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/confirmtest.js",
-			"settings":
-			{
-				"buffer_size": 568,
+				"buffer_size": 868,
 				"line_ending": "Unix"
 			}
 		}
@@ -126,6 +127,7 @@
 	},
 	"file_history":
 	[
+		"/Users/steve/dev/promptTest/www/confirmtest.js",
 		"/Users/steve/dev/StandCheck/www/css/normalize.css",
 		"/Users/steve/dev/pc-data.js",
 		"/Users/steve/dev/StandCheck/standcheck.sublime-project",
@@ -211,8 +213,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								249,
+								249
 							]
 						],
 						"settings":
@@ -223,11 +225,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1001,
+								1001
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "www/css/styles.css",
 					"semi_transient": false,
 					"settings":
@@ -256,41 +287,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1039,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								272,
-								833
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "www/confirmtest.js",
+					"file": "www/js/confirmtest.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 568,
+						"buffer_size": 868,
 						"regions":
 						{
 						},
@@ -303,7 +305,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
