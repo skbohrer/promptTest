@@ -64,16 +64,6 @@
 			"settings":
 			{
 				"buffer_size": 1588,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1483,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -87,11 +77,19 @@
 			}
 		},
 		{
-			"file": "confirmtest.js",
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 1039,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/confirmtest.js",
 			"settings":
 			{
 				"buffer_size": 568,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -128,7 +126,7 @@
 	},
 	"file_history":
 	[
-		"/Users/steve/dev/promptTest/www/css/styles.css",
+		"/Users/steve/dev/StandCheck/www/css/normalize.css",
 		"/Users/steve/dev/pc-data.js",
 		"/Users/steve/dev/StandCheck/standcheck.sublime-project",
 		"/Users/steve/dev/StandCheck/www/index.html",
@@ -164,7 +162,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -178,8 +176,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"hbtn",
-			"hbutton"
+			"swrap",
+			"stopCtl"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -213,8 +211,8 @@
 						"selection":
 						[
 							[
-								649,
-								649
+								0,
+								0
 							]
 						],
 						"settings":
@@ -225,40 +223,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1483,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								272,
-								272
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "www/css/styles.css",
 					"semi_transient": false,
 					"settings":
@@ -270,13 +239,42 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								3499,
+								3499
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3593.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								833
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -288,7 +286,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "confirmtest.js",
+					"file": "www/confirmtest.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -299,8 +297,8 @@
 						"selection":
 						[
 							[
-								565,
-								565
+								0,
+								0
 							]
 						],
 						"settings":
