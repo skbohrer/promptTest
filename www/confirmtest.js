@@ -9,11 +9,11 @@ function fieldClick(){
 
 function init() {
 	FastClick.attach(document.body);
-  	document.getElementById('busID').onclick = fieldClick;
-  	document.getElementById('busOff').onclick = fieldClick;
- 	document.getElementById('busOn').onclick = fieldClick;
-  	document.getElementById('busPOB').onclick = fieldClick;
-  	document.getElementById('busPLB').onclick = fieldClick;
+  	document.getElementById('busID').onfocusin = fieldClick;
+  	document.getElementById('busOff').onfocusin = fieldClick;
+ 	document.getElementById('busOn').onfocusin = fieldClick;
+  	document.getElementById('busPOB').onfocusin = fieldClick;
+  	document.getElementById('busPLB').onfocusin = fieldClick;
 
   	document.getElementById('busID').onselect = fieldClick;
   	document.getElementById('busOff').onselect = fieldClick;
